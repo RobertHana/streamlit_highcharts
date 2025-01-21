@@ -15,3 +15,4 @@ function onRender(event) {
 
 Streamlit.events.addEventListener(Streamlit.RENDER_EVENT, onRender)
 Streamlit.setComponentReady()
+console.log('*** xxx hello')

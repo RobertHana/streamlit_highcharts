@@ -8,11 +8,11 @@ function onRender(event) {
     const {options,height} = event.detail.args
     Streamlit.setFrameHeight(height+20)
     document.getElementById("container").style.height=height+"px"
-    Highcharts.chart('container', options);
+//    Highcharts.chart('container', options);
+    Highcharts.stockChart('container', options);
     window.rendered = true
   }
 }
 
 Streamlit.events.addEventListener(Streamlit.RENDER_EVENT, onRender)
 Streamlit.setComponentReady()
-console.log('*** xxx hello')

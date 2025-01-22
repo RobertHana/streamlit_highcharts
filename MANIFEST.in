@@ -1,3 +1,3 @@
-recursive-include src/streamlit_highcharts/frontend *
+recursive-include src/streamlit_highstock/frontend *
 include README.md
 include LICENSE

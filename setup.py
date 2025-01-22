@@ -6,11 +6,11 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
-    name="streamlit-highcharts",
-    version="0.2.0",
-    author="Anthony Alteirac",
-    author_email="anthony@alteirac.com",
-    description="Simple wrapper for Highcharts JS libs",
+    name="streamlit-highstock",
+    version="0.0.1",
+    author="Robert B. Hanviriyapunt",
+    author_email="RobertHana@Mac.com",
+    description="Simple wrapper for Highstock JS libs",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(where="src"),

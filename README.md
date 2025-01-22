@@ -1,11 +1,11 @@
-# streamlit-highcharts
+# streamlit-highstock
 
-Simple wrapper for Highcharts JS libs
+Simple wrapper for Highstock JS libs
 
 ## Installation instructions 
 
 ```sh
-pip install streamlit-highcharts
+pip install streamlit-highstock
 ```
 
 ## Tips
@@ -20,13 +20,13 @@ You'll find a lot of samples, just copy the JS definition as JSON and think abou
 
 ## Sample Streamlit Application
 
-https://aalteirac-streamlit-highcharts-test-app-main-3vgde6.streamlitapp.com/
+[//]: # (https://aalteirac-streamlit-highcharts-test-app-main-3vgde6.streamlitapp.com/)
 
 ## Usage 
 
 ```python
 import streamlit as st
-import streamlit_highcharts as hct
+import streamlit_highstock as hct
 
 chart_def={
    "title":{
@@ -62,8 +62,8 @@ chart_def={
     ]
 }
 
-hct.streamlit_highcharts(chart_def,640) #640 is the chart height
+hct.streamlit_highcharts(dict(chart_options=chart_def, global_options=None),640) #640 is the chart height
 #The component bundles some sample chart definitions, from SAMPLE1 to ...SAMPLE10
-hct.streamlit_highcharts(hct.SAMPLE1,640) #640 is the chart height
+# hct.streamlit_highcharts(dict(chart_options=hct.SAMPLE, global_options=None),640) #640 is the chart height
 
 

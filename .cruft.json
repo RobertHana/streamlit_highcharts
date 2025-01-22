@@ -4,12 +4,12 @@
   "checkout": null,
   "context": {
     "cookiecutter": {
-      "author_name": "Anthony Alteirac",
-      "author_email": "anthony@alteirac.com",
-      "project_name": "Streamlit Highcharts Wrapper",
-      "package_name": "streamlit-highcharts",
-      "import_name": "streamlit_highcharts",
-      "description": "Simple wrapper for Highcharts JS libs",
+      "author_name": "Robert B. Hanviriyapunt",
+      "author_email": "RobertHana@Mac.com",
+      "project_name": "Streamlit Highstock Wrapper",
+      "package_name": "streamlit-highstock",
+      "import_name": "streamlit_highstock",
+      "description": "Simple wrapper for Highstock JS libs",
       "deployment_via_github_actions": "y",
       "working_with_dataframes": "n",
       "open_source_license": "MIT license",

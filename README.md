@@ -62,8 +62,8 @@ chart_def={
     ]
 }
 
-hct.streamlit_highcharts(dict(chart_options=chart_def, global_options=None),640) #640 is the chart height
+hct.streamlit_highstock(dict(chart_options=chart_def, global_options=None),640) #640 is the chart height
 #The component bundles some sample chart definitions, from SAMPLE1 to ...SAMPLE10
-# hct.streamlit_highcharts(dict(chart_options=hct.SAMPLE, global_options=None),640) #640 is the chart height
+# hct.streamlit_highstock(dict(chart_options=hct.SAMPLE, global_options=None),640) #640 is the chart height
 
 

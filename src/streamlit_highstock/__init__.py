@@ -23,11 +23,11 @@ SAMPLE=dict(
 frontend_dir = (Path(__file__).parent / "frontend").absolute()
 
 _component_func = components.declare_component(
-	"streamlit_highcharts", path=str(frontend_dir)
+	"streamlit_highstock", path=str(frontend_dir)
 )
 
 
-def streamlit_highcharts(
+def streamlit_highstock(
     options=dict(
         chart_options=SAMPLE,
         global_options=None,
@@ -51,7 +51,7 @@ def streamlit_highcharts(
 #     st.write("## Example")
 #     selSample=st.selectbox("Choose a sample",[SAMPLE,SAMPLE2,SAMPLE3,SAMPLE4,SAMPLE5,SAMPLE6,SAMPLE7,SAMPLE8,SAMPLE9,SAMPLE10],format_func=lambda x: str(x["title"]["text"])
 # )
-#     value = streamlit_highcharts(selSample,640)
+#     value = streamlit_highstock(dict(chart_options=selSample, global_options=None),640)
 #     with st.expander("Show code...",expanded=False):
 #         st.code(str(selSample).replace("},","},\r\n"),language="python")
 
